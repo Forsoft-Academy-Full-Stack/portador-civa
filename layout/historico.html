@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CIVA</title>
 
-  <link rel="shortcut icon" href="./public/img/favicon-gs.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="./../public/img/favicon-gs.svg" type="image/x-icon">
 
   <!-- Google Font: Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +17,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
   rel="stylesheet">
 
-
   <!-- Font Icones -->
-  <link rel="stylesheet" href="./public/plugins/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="./../public/plugins/fontawesome-free/css/all.min.css">
   
   <!-- Estilo pagina -->
-  <link rel="stylesheet" href="./public/dist/css/adminlte.min.css">
-
+  <link rel="stylesheet" href="./../public/dist/css/adminlte.min.css">
 
 </head>
 <body class="hold-transition sidebar-mini">
@@ -39,7 +37,7 @@
         </a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link">Histórico</a>
       </li>
     </ul>
   </nav>
@@ -52,7 +50,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="./img/favicon-gs.svg" alt="AdminLTE Logo" class="brand-image img-circle" style="opacity: .8">
+      <img src="./../public/img/favicon-gs.svg" alt="AdminLTE Logo" class="brand-image img-circle" style="opacity: .8">
       <span class="brand-text font-weight-light">CIVA</span>
     </a>
 
@@ -61,21 +59,21 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="./img/no-user.svg" class="img-circle elevation-2" alt="User Image">
+          <img src="./../public/img/no-user.svg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Samuel Claudino</a>
         </div>
       </div>
 
-
+   
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- ITENS DO MENU -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="./index.html" class="nav-link">
               <i class="nav-icon fas fa-home"></i>
               <p>
                 Home 
@@ -83,8 +81,8 @@
             </a> 
           </li>
           <!-- ITEM GERENCIAR USUARIO DO MENU -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link  active">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user-friends"></i>
               <p>
                 Gerenciar usuário
@@ -93,7 +91,7 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item menu-open">
+              <li class="nav-item">
                 <a href="#" class="nav-link"> 
                   <p>
                     Portador CIVA
@@ -102,19 +100,19 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="./consultar-portador.html" class="nav-link">
                       <i class="fas fa-search nav-icon"></i>
                       <p>Consultar Portador</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link  active">
+                    <a href="./cadastrar-portador.html" class="nav-link">
                       <i class="fas fa-user-plus nav-icon"></i>
                       <p>Cadastrar Portador</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="./vacinacao-internacional.html" class="nav-link">
                       <i class="fas fa-stethoscope nav-icon"></i>
                       <p>Vacinação internacional</p>
                     </a>
@@ -136,8 +134,8 @@
           </li>
 
           <!-- ITEM PERFIL DO MENU -->
-          <li class="nav-item">
-            <a href="#" class="nav-link">
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-user-circle"></i>
               <p>
                 Perfil
@@ -147,14 +145,14 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link"> 
+                <a href="./meus-dados.html" class="nav-link active"> 
                   <p>
                     Meus dados
                   </p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link"> 
+                <a href="./idioma.html" class="nav-link"> 
                   <p>
                     Mudar Idioma
                   </p>
@@ -201,7 +199,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Pagina Inicial</h1>
+            <h1 class="m-0">Histórico</h1>
           </div><!-- /.col --> 
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -214,117 +212,62 @@
 
 
 
-    <!-- Main content -->
-    <div class="content">
-      <div class="container-fluid">
-        <!---------------------------------------------------------------->
+<!-- Main content -->
+<div class="content">
+<div class="container-fluid">
+<!---------------------------------------------------------------->
 
-
-     
-<div class="row">
-<div class="col-md-6">
-
-
-    <div class="card card-primary">
-        <div class="card-header">
-          <h3 class="card-title">Dados Pessoais</h3>
+             
+<div class="container-fluid card" style="width: 90%;">
+    <!-- card body -->
+    <div class="card-body table-responsive p-10">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-lg-10">
+                <table class="table text-nowrap">
+                    <thead>
+                    <tr>
+                        <th>Vacina</th>
+                        <th>Laboratório</th>
+                        <th>Dose</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Hospital Pan</td>
+                        <td>Rio de Janeiro</td>
+                        <td>12016-102</td>
+                    </tr>
+                
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Data de aplicação</th>
+                            <th>Estabelecimento</th>
+                            <th>País</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>29 de julho 2021</td>
+                            <td>Hospital Pan</td>
+                            <td>Brasil</td>
+                        </tr>
+                
+                        </tbody>
+                </table>
+            </div>
+            <div class="col-1 aling-items-center">
+                    <div>
+                        <img src="./../public/img/qr.png" alt="">
+                    </div>
+                    <div class="btn-group"><button type="button" class="btn btn-primary btn-sm">Download</button></div> 
+            </div>
         </div>
-        <!-- /.card-header -->
-        <!-- form start -->
-        <form id="form-cad-portador">
-          <div class="card-body">
-            <div class="form-group">
-              <label for="name">Nome</label>
-              <input type="text" class="form-control" id="name" placeholder="Ex: Maria">
-            </div>
-            <div class="form-group">
-              <label for="surname">Sobrenome</label>
-              <input type="text" class="form-control" id="surname" placeholder="Ex: Almeida">
-            </div>
-            <div class="form-group">
-              <label for="identity">Identidade</label>
-              <input type="text" class="form-control" id="identity" placeholder="000.000.000-00">
-            </div>
-            <div class="form-group">
-              <label for="date-birth">Data de Nascimento</label>
-              <input type="date" class="form-control" id="date-birth">
-            </div>
-            <div class="form-group">
-              <label for="country">Nacionalidade</label>
-              <select class="form-control" id="country">
-                <option selected="" disabled="">Selecione</option>
-                <option>Brasil</option>
-                <option>Estados Unidos</option>
-                <option>Canadá</option>
-                <option>Japão</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="postal-code">Código Postal</label>
-              <input type="text" class="form-control" id="postal-code" placeholder="00000-000">
-            </div>
-            <div class="form-group">
-              <label for="sub-div1">Sub-divisão 1</label>
-              <select class="form-control" id="sub-div1">
-                <option selected="" disabled="">Selecione</option>
-                <option>Rio de Janeiro</option>
-                <option>Niterói</option>
-                <option>São Gonçalo</option>
-                <option>Méier</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="sub-div2">Sub-divisão 2</label>
-              <select class="form-control" id="sub-div2">
-                <option selected="" disabled="">Selecione</option>
-                <option>Rio de Janeiro</option>
-                <option>Niterói</option>
-                <option>São Gonçalo</option>
-                <option>Méier</option>
-              </select>
-            </div>
-            <div class="row">
-              <div class="form-group col-2">
-                <label for="tipo-logrd">Logradouro</label>
-                <select class="form-control" id="tipo-logrd">
-                  <option selected="" disabled="">Selecione</option>
-                  <option>Av.</option>
-                  <option>R.</option>
-                </select>
-              </div>
-              <div class="form-group col pl-0">
-                <label for="logrd">&nbsp;</label>
-                <input type="text" class="form-control" id="logrd" placeholder="Rio Branco">
-              </div>
-            </div>
-            <div class="row">
-              <div class="form-group col-1">
-                <label for="ddi-telf">Contato</label>
-                <input type="text" class="form-control" id="ddi-telf" placeholder="+55">
-              </div>
-              <div class="form-group col pl-0">
-                <label for="telf">&nbsp;</label>
-                <input type="text" class="form-control" id="telf" placeholder="(00) 9 0000-0000">
-              </div>  
-            </div>
-            <div class="form-group">
-              <label for="email">E-mail (Opcional)</label>
-              <input type="email" class="form-control" id="email" placeholder="mail@mail.com">
-            </div>
-          </div> 
-        </form>
-        
-      </div>
-        <div class="mb-3 mt-3">
-            <button type="button" class="btn btn-secondary btn-lg mr-3">Voltar</button>
-            <button type="submit" class="btn btn-primary btn-lg" form="form-cad-portador">Cadastrar</button>
-        </div>
-
-</div>
+    </div>
+        <!-- /.card-body -->
 </div>
 
-        
- 
+
         <!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
@@ -362,14 +305,12 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="./plugins/jquery.min.js"></script>
+<script src="./../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="./plugins/bootstrap.bundle.min.js"></script>
+<script src="./../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="./style/js/adminlte.min.js"></script>
-
-
-<!-- VERIFICA O CAMPO -->
-<script src="./verifica-campo.js"></script>
+<script src="./../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="./../dist/js/demo.js"></script>
 </body>
 </html>
