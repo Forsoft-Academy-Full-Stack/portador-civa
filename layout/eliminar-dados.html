@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CIVA</title>
 
-  <link rel="shortcut icon" href="./../public/img/favicon-pc.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="./../public/img/Grupo-pc.svg" type="image/x-icon">
 
   <!-- Google Font: Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
   <!-- Font Icones -->
   <link rel="stylesheet" href="./../public/plugins/fontawesome-free/css/all.min.css">
-
+  
   <!-- Estilo pagina -->
   <link rel="stylesheet" href="./../public/dist/css/adminlte.min.css">
 
 </head>
-
 <body class="hold-transition sidebar-mini">
-  <div class="wrapper">
+<div class="wrapper">
 
         <!-- Navbar --------------------------------------------->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -85,7 +81,7 @@
                       </li>
                       <!-- ITEM HISTÓRICO DO MENU -->
                       <li class="nav-item">
-                          <a href="historico.html" class="nav-link active">
+                          <a href="historico.html" class="nav-link">
                               <i class="nav-icon fas fa-file-invoice"></i>
                               <p>
                                   Histórico
@@ -153,7 +149,7 @@
                                   </a>
                               </li>
                               <li class="nav-item">
-                                  <a href="./eliminar-dados.html" class="nav-link">
+                                  <a href="./eliminar-dados.html" class="nav-link active">
                                       <i class="nav-icon fas fa-user-times"></i>
                                       <p>
                                           Eliminar meus dados
@@ -198,207 +194,89 @@
 
 
 
-
-    <!-- Content Wrapper. Contains page content -------------------------->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <div class="content-header">
-        <div class="container-fluid">
-          <div class="row mb-2">
-            <div class="col-sm-6">
-              <h1 class="m-0">Histórico de Vacinação</h1>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-      </div>
-      <!-- /.content-header ---------------------------------------------->
-
-
-
-
-      <!-- Main content -->
-
-      <div class="col-12">
-        <div class="card card-primary card-outline">
-          <div class="card-header">
-            <h3 class="card-title">Últimas vacinas tomadas.</h3>
-          </div>
-          <!-- ./card-header -->
-          <div class="card-body d-flex">
-            <table class="table text-nowrap">
-              <thead>
-                <tr>
-                  <th>Vacina</th>
-                  <th>Laboratório</th>
-                  <th>Dose</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Coronavac</td>
-                  <td>Sinovac</td>
-                  <td>1° Dose</td>
-                </tr>
-
-              </tbody>
-              <thead>
-                <tr>
-                  <th>Data de aplicação</th>
-                  <th>Estabelecimento</th>
-                  <th>País</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>29 de julho 2021</td>
-                  <td>Hospital Pan</td>
-                  <td>Brasil</td>
-                </tr>
-
-              </tbody>
-            </table>
-            <div class="col aling-items-center p-3">
-              <div>
-                <img src="./../public/img/qrcode.png" alt="">
-              </div>
-              <div class="btn-group pl-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
-                  data-target="#modal-default">Download</button></div>
-            </div>
-          </div>
-          <!-- ./card-body -->
-          <div class="card-body d-flex">
-            <table class="table text-nowrap">
-              <thead>
-                <tr>
-                  <th>Vacina</th>
-                  <th>Laboratório</th>
-                  <th>Dose</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Coronavac</td>
-                  <td>Sinovac</td>
-                  <td>1° Dose</td>
-                </tr>
-
-              </tbody>
-              <thead>
-                <tr>
-                  <th>Data de aplicação</th>
-                  <th>Estabelecimento</th>
-                  <th>País</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>29 de julho 2021</td>
-                  <td>Hospital Pan</td>
-                  <td>Brasil</td>
-                </tr>
-
-              </tbody>
-            </table>
-            <div class="col aling-items-center p-3">
-              <div>
-                <img src="./../public/img/qrcode.png" alt="">
-              </div>
-              <div class="btn-group pl-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
-                  data-target="#modal-default">Download</button></div>
-            </div>
-          </div>
-          <!-- ./card-body -->
-        </div>
-      </div>
-
-      <!-- /.content -->
+  <!-- Content Wrapper. Contains page content -------------------------->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Eliminar dados</h1>
+          </div><!-- /.col --> 
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
     </div>
-    <!-- /.content-wrapper -->
+    <!-- /.content-header ---------------------------------------------->
 
-    <!-- Main Footer -->
-    <footer class="main-footer">
-      <!-- Default to the left -->
-      <strong>CIVA &copy; <a href="">Forsoft Academy</a>.</strong>
-    </footer>
-  </div>
 
-  <!-- MODAL CERTIFICADO CIVA -->
-  <div class="modal fade show " id="modal-default" style="display: none; padding-right: 17px;" aria-modal="true">
-    <div class="modal-dialog ">
-      <div class="modal-content card-primary card-outline">
-        <div class="modal-header">
-          <h4 class="modal-title">Certificado CIVA</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
+
+
+
+
+
+    <!-- Main content -->
+    
+<div class="col-12">
+    <div class="card card-primary card-outline">
+        
+        <div class="card-body">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="align-items-center"><img style="width: 300px;" src="./../public/img/Pay-attention-amico-1.svg" alt="Atenção, eliminar dados"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h3>Eliminação de dados</h3>
+                    <p>Conforme determina a Lei 13.709/2018, você tem o direito de solicitar a eliminação total dos dados tratados pelo CIVA.</p>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="form-group">
-            <label for="certificado-nome">Nome</label>
-            <input type="text" class="form-control form-control-sm" id="certificado-nome"
-              value="Samuel Claudino da Silva" disabled>
-          </div>
-          <div class="row">
-            <div class="form-group col mb-3">
-              <label for="certificado-identidade">Identidade</label>
-              <input type="text" class="form-control form-control-sm" id="certificado-identidade" value="123.456.789-09"
-                disabled>
-            </div>
-            <div class="form-group col mb-3">
-              <label for="certificado-b-day">Data de nascimento</label>
-              <input type="text" class="form-control form-control-sm" id="certificado-b-day" value="31/09/1998"
-                disabled>
+        <div class="card-footer">
+            <div class="float-right">
+              <a href="./Eliminar-dados-confirmação.html"><button type="button" class="btn btn-primary">Prosseguir</button></a>
             </div>
           </div>
-          <div class="row">
-            <div class="form-group col mb-3">
-              <label for="certificado-civa-id">CIVA</label>
-              <input type="text" class="form-control form-control-sm" id="certificado-civa-id" value="BR55123456789"
-                disabled>
-            </div>
-            <div class="form-group col mb-3">
-              <label for="certificado-origem">País de origem</label>
-              <input type="text" class="form-control form-control-sm" id="certificado-origem" value="Brasil" disabled>
-            </div>
-          </div>
-          <div class="row">
-            <div class="form-group col mb-3">
-              <label for="certificado-vacina">Vacina</label>
-              <input type="text" class="form-control form-control-sm" id="certificado-vacina" value="Coronavac"
-                disabled>
-            </div>
-            <div class="form-group col mb-3">
-              <label for="certificado-dose">Doses</label>
-              <input type="text" class="form-control form-control-sm" id="certificado-dose" value="2" disabled>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer justify-content-between">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-          <button type="button" class="btn btn-primary">Imprimir</button>
-        </div>
-      </div>
-      <!-- /.modal-content -->
+        <!-- ./card-body -->
     </div>
-    <!-- /.modal-dialog -->
+</div>
+
+    <!-- /.content -->
   </div>
+  <!-- /.content-wrapper -->
 
-  <!-- ./wrapper -->
 
-  <!-- REQUIRED SCRIPTS -->
 
-  <!-- jQuery -->
-  <script src="./../public/plugins/jquery/jquery.min.js"></script>
-  <!-- Bootstrap 4 -->
-  <script src="./../public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- AdminLTE App -->
-  <script src="./../public/dist/js/adminlte.min.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="./../public/dist/js/demo.js"></script>
+  
+ 
 
-  <script>
-    $('#modal-default').modal('hide');
-  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- Default to the left -->
+    <strong>CIVA &copy; <a href="">Forsoft Academy</a>.</strong>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="./../public/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="./../public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="./../public/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="./../public/dist/js/demo.js"></script>
 </body>
-
 </html>
